@@ -22,7 +22,10 @@ p {
 
 /* Site header */
 .site-header {
+    /* It will remain in the flow, like an element with position static or relative
+    and only on scroll it will stick to the parent that is scrollable */
     position: sticky;
+    /* Specify the offset from its original position */
     top: 0;
     left: 0;
     background-color: purple;
